@@ -8,8 +8,9 @@ using std::endl;
 using std::vector;
 
 struct studentas {
-  string Vardas,Pavarde;
-  vector <int> Pazymis;
+  string Vardas;
+  string Pavarde;
+  vector <int> ND_Pazymis;
   int Egzaminas;
-  float Rezultatas;
+  double Galutinis;
 };
