@@ -2,6 +2,11 @@
 #include <string>
 #include <vector>
 #include <iomanip>
+#include <algorithm>
+#include <limits>
+#include <random>
+#include <cstdlib>
+#include <fstream>
 using std::cout;
 using std::string;
 using std:: cin;
