@@ -7,18 +7,13 @@
 #include <random>
 #include <cstdlib>
 #include <fstream>
-using std::cout;
-using std::string;
-using std:: cin;
-using std::endl;
-using std::vector;
-using std::setprecision;
-using std::fixed;
+
+using namespace std;
 
 struct studentas {
-  string Vardas;
-  string Pavarde;
+  string Vardas,Pavarde;
   vector <int> ND_Pazymis;
   int Egzaminas;
-  double Galutinis;
+  double GalutinisVid;
+  double GalutinisMed;
 };
